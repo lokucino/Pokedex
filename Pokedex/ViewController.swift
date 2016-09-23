@@ -147,6 +147,7 @@ class ViewController: UIViewController, UICollectionViewDelegate, UICollectionVi
             collection.reloadData() // refresh
         }
     }
+    ////////////
     
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "PokemonDetailVC" {
